@@ -1,0 +1,1 @@
+import{n as o,s as a,o as c,c as r,a as e,t as u,u as l,F as i}from"./index.da857039.js";const d=o("test",{state:()=>({count:0}),actions:{add(){this.count+=1}},getters:{}}),k={__name:"page2",setup(p){const t=d();let{count:n,testCount:_}=a(t);function s(){t.add()}return(f,m)=>(c(),r(i,null,[e("div",null,u(l(n)),1),e("button",{onClick:s},"button")],64))}};export{k as default};

@@ -1,0 +1,1 @@
+import{f as u,e as p,l as i,o as l,c as m,a as n,m as c}from"./index.da857039.js";const f={__name:"main",setup(_){u();const a=p();function o(t){a.push({path:"/main/page"+t})}return(t,e)=>{const r=i("router-view");return l(),m("div",null,[n("button",{onClick:e[0]||(e[0]=s=>o(1))},"page1"),n("button",{onClick:e[1]||(e[1]=s=>o(2))},"page2"),c(r)])}}};export{f as default};

@@ -1,0 +1,1 @@
+import{e as s,f as o,o as r,c as n,g as u,t as a,u as t,F as c,a as l}from"./index.da857039.js";const _=l("div",null," page1 ",-1),g={__name:"page1",setup(p){s();let e=o().query;return(i,m)=>(r(),n(c,null,[_,u(" "+a(t(e).name)+" "+a(t(e).id),1)],64))}};export{g as default};

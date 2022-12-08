@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div id="box">
+    <div v-html="msg">1</div>
+
+    <a :href="href1">2</a>
+
+    <div>
+      {{ number+2 }}
+    </div>
+
+    <div>
+      {{ question }} <br> {{ ans ? 'YES' : 'NO' }}
+    </div>
+
+    <div>
+      {{ question.split('').reverse().join('') }}
+    </div>
+  </div>
+
+  <script>
+    const APP = {
+      data() {
+        return {
+          msg: "<div style='color: red'>1111</div>",
+          href1: 'baidu.com',
+          number: 100,
+          question: "are you a boy?",
+          ans: true
+        }
+      }
+    }
+
+    Vue.createApp(APP).mount('#box')
+  </script>
+</body>
+</html>
